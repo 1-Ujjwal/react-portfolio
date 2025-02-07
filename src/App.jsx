@@ -4,6 +4,7 @@ import "./index.css";
 import LoadingScreen from "./components/LoadingScreen";
 import Navbar from "./components/sections/Navbar";
 import MobileMenu from "./components/sections/MobileMenu";
+import Home from "./components/sections/Home";
 import { useState } from "react";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <Home />
       </div>
     </>
   );
