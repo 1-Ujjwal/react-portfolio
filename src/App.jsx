@@ -6,6 +6,7 @@ import Navbar from "./components/sections/Navbar";
 import MobileMenu from "./components/sections/MobileMenu";
 import Home from "./components/sections/Home";
 import About from "./components/sections/About";
+import Projects from "./components/sections/Projects";
 import { useState } from "react";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
+        <Projects />
       </div>
     </>
   );
