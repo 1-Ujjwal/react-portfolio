@@ -22,7 +22,7 @@ const About = () => {
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 transition-all">
             <p className="text-gray-300 mb-6">
               Passionate developer with strong attention to detail,
               problem-solving abilities. I strive to deliver high-quality
@@ -50,7 +50,7 @@ const About = () => {
           </div>
 
           <div className="md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 transition-all">
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-inside text-gray-300 space-y-4">
                 <li>
